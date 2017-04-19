@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="theDOM2.css">
+    <meta charset="utf-8">
+    <title>blatantTheft</title>
+  </head>
+  <body>
+    <h1>The Word</h1>
+    <button onclick="myFunction2()" class="buttonCorrect" id="correct">Correct</button>
+    <br>
+    <button onclick="myFunction1()" class="buttonWrong1">Wrong</button>
+    <br>
+    <button onclick="myFunction3()" class="buttonWrong2">Wrong</button>
+    <script>
+      function myFunction2() {
+          var x = document.getElementsByClassName("buttonCorrect");
+          for(i=0;i<x.length;i++){
+            x[i].className = "heading";
+          }
+      }
+
+      function myFunction1() {
+          var x = document.getElementsByClassName("buttonWrong1");
+          for(i=0;i<x.length;i++){
+            x[i].className = "wrong1";
+          }
+      }
+      function myFunction3() {
+          var x = document.getElementsByClassName("buttonWrong2");
+          for(i=0;i<x.length;i++){
+            x[i].className = "wrong2";
+          }
+      }
+    </script>
+  </body>
+</html>

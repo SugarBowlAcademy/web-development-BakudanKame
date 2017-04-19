@@ -1,0 +1,64 @@
+h1 {
+  background: rgb(131, 122, 142);
+  text-align: center;
+}
+
+.heading {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: green;
+  background-color:white;
+  border: none;
+}
+
+.wrong1 {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: red;
+  background-color:white;
+  border: none;
+}
+
+.wrong2 {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: red;
+  background-color:white;
+  border: none;
+}
+
+.buttonCorrect {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color:white;
+  border: none;
+}
+
+.buttonWrong1 {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color:white;
+  border: none;
+}
+
+.buttonWrong2 {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color:white;
+  border: none;
+}
